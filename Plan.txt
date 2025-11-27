@@ -1,0 +1,22 @@
+Projet Bases:
+ - datatypes
+ - conversions
+ - formattage de chaines
+ - opérateurs
+ - conditions: savoir faire des contrôles
+ - Boucles: gestion des traitements répététifs
+ - TP calculatrice
+ - Tableau: Array
+ - Enum: énumeration
+ - Méthodes
+ 
+Projet Concepts Objets:
+	Encapsulation - Héritage - Polymorphisme - Abstraction - Association
+	TP
+	
+Exception
+Classe String
+Classe Date
+Collections: se sont des tableaux dynamiques
+Classes pour les fichiers
+Sérialisation
