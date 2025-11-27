@@ -20,3 +20,9 @@ Classe Date
 Collections: se sont des tableaux dynamiques
 Classes pour les fichiers
 Sérialisation
+Java Fonctionnelle
+L'API Stream
+Threading
+Généricité
+Api Reflection (introspection)
+JDBC: Java Data Base Connector
