@@ -2,6 +2,11 @@ package entities;
 
 public class Produit {
 	
+	/*
+	 * public int id -> visible partout (dans tous les packages)
+	 * protected int id; -> visible 
+	 */
+	
 	private int id;
 	private String description;
 	private double prix;

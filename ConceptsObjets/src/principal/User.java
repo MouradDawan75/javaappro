@@ -18,9 +18,11 @@ public class User extends Object{
 		
 		//this: mot clé qui pointe vers l'objet en cours d'utilisation
 		
-		this.nom = nom;
-		this.prenom = prenom;
+		this(nom);
+		//this.nom = nom;
 		this.age = age;
+		this.prenom = prenom;
+		
 	}
 	
 	

@@ -25,4 +25,5 @@ L'API Stream
 Threading
 Généricité
 Api Reflection (introspection)
-JDBC: Java Data Base Connector
+JDBC: Java DataBase Connector
+API Swing: dans Eclipse installer le plugin: WindowBuilder -> help -> market place -> rechercher le plugin et l'installer

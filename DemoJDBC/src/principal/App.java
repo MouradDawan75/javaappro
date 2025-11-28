@@ -15,10 +15,31 @@ import com.mysql.cj.jdbc.MysqlDataSource;
 import entities.Produit;
 import repositories.IProduitRepository;
 import repositories.ProduitRepository;
+/*
+ * Importer les membres static d'une classe: méthodes static, variables static
+ */
+import static principal.MyMethods.methodeClasse; 
+import static principal.MyMethods.PRIME;
 
 public class App {
+	
+	static int x;
+	
+	//bloc d'initialisation static - exécuté avant le constructeur
+	static {
+		x = 10;
+	}
+	
+	boolean b = false;
 
+	//une méthode static ne peut utiliser que des variables static définies en dehors de la méthode
 	public static void main(String[] args) throws Exception {
+		
+		//System.out.println(b);
+		
+		methodeClasse();
+		double prm = PRIME;
+		
 		/*
 		 * Une appli. java utilise le driver JDBC pour interagir avec une base de données 
 		 * à récupérer via maven repository

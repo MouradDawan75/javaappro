@@ -24,10 +24,13 @@ public class Chat extends Animal{
 		this.couleur = couleur;
 	}
 	
-	public Chat() {
-		
-	}
 	
+	
+
+	public Chat() {
+		super();
+	}
+
 	public void dormir() {
 		System.out.println("Chat: dormir.......");
 	}
